@@ -7,7 +7,7 @@ use Liloi\Atoms\Exceptions\IncorrectException;
 
 class Manager extends DomainManager
 {
-    public const ROOT = 'root';
+    public const ROOT = 'place-of-power';
 
     /**
      * Get table name.
