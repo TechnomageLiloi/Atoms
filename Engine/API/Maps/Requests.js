@@ -47,9 +47,7 @@ Atoms.Maps = {
             key_map: keyMap,
             title: jq_block.find('[name=title]').val(),
             status: jq_block.find('[name=status]').val(),
-            program: jq_block.find('[name=program]').val(),
-            data: jq_block.find('[name=data]').val(),
-            drive: jq_block.find('[name=drive]').val()
+            program: jq_block.find('[name=program]').val()
         }, function (data) {
             Atoms.Maps.show();
         }, function () {

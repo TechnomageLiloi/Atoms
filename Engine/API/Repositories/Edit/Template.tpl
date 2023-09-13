@@ -1,8 +1,8 @@
 <link href="/Engine/API/Repositories/Edit/Style.css" rel="stylesheet" />
 
 <div id="game-repositories-edit">
-    <a href="javascript:void(0)" onclick="Rune.Repositories.save('<?php echo $entity->getKeyAtom(); ?>');">Save</a>
-    <a href="javascript:void(0)" onclick="Rune.Maps.show();">Cancel</a>
+    <a href="javascript:void(0)" onclick="Atoms.Repositories.save('<?php echo $entity->getKeyAtom(); ?>');">Save</a>
+    <a href="javascript:void(0)" onclick="Atoms.Maps.show();">Cancel</a>
     <hr/>
     <table>
         <tr><td style="width: 10%;">Title</td><td><input type="text" name="title" value="<?php echo $entity->getTitle(); ?>" /></td></tr>
@@ -22,6 +22,6 @@
         <tr><td>Local</td><td><input type="text" name="local" value="<?php echo $entity->getLocal(); ?>" /></td></tr>
     </table>
     <hr/>
-    <a href="javascript:void(0)" onclick="Rune.Repositories.save('<?php echo $entity->getKeyAtom(); ?>');">Save</a>
-    <a href="javascript:void(0)" onclick="Rune.Maps.show();">Cancel</a>
+    <a href="javascript:void(0)" onclick="Atoms.Repositories.save('<?php echo $entity->getKeyAtom(); ?>');">Save</a>
+    <a href="javascript:void(0)" onclick="Atoms.Maps.show();">Cancel</a>
 </div>

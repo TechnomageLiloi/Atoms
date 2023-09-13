@@ -24,7 +24,7 @@
                         </a>
                     </td>
                     <td>
-                        <a href="javascript:void(0)" onclick="Rune.Repositories.edit('<?php echo $entity->getKeyAtom(); ?>');">
+                        <a href="javascript:void(0)" onclick="Atoms.Repositories.edit('<?php echo $entity->getKeyAtom(); ?>');">
                             Edit
                         </a>
                     </td>

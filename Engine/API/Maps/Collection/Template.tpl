@@ -16,7 +16,7 @@
                 </td>
                 <td><?php echo $entity->getStatusCaption(); ?></td>
                 <td>
-                    <a href="javascript:void(0)" class="butn" onclick="Rune.Maps.remove('<?php echo $entity->getKey(); ?>');">Remove</a>
+                    <a href="javascript:void(0)" class="butn" onclick="Atoms.Maps.remove('<?php echo $entity->getKey(); ?>');">Remove</a>
                 </td>
             </tr>
         <?php endforeach; ?>

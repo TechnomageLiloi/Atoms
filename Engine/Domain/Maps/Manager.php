@@ -78,9 +78,7 @@ class Manager extends DomainManager
             'key_map' => $keyMap,
             'title' => $keyMap,
             'status' => Statuses::TODO,
-            'program' => '',
-            'data' => '{}',
-            'drive' => ''
+            'program' => ''
         ]);
     }
 
@@ -100,8 +98,6 @@ class Manager extends DomainManager
 
         if(!$row)
         {
-            self::accessCheck();
-
             $row = [
                 'key_map' => $keyMap,
                 'title' => $keyMap,

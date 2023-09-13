@@ -25,7 +25,8 @@
         <table id="interface">
             <tr>
                 <td class="menu top">
-
+                    <a href="javascript:void(0)" class="butn" onclick="Atoms.Maps.edit();">Edit map point</a>
+                    <a href="javascript:void(0)" class="butn" onclick="Atoms.Repositories.create();">Create new repository</a>
                 </td>
             </tr>
             <tr>

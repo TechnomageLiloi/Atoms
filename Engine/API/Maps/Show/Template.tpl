@@ -5,15 +5,7 @@
         <?php echo $entity->getSeeds(); ?>
     </div>
     <h1 class="wrap-title">
-        <?php $drive = $entity->getDrive(); ?>
-
-        <?php if($drive): ?>
-            <a href="<?php echo $drive; ?>" target="_blank">
-                <?php echo $entity->getTitle(); ?>
-            </a>
-        <?php else: ?>
-            <?php echo $entity->getTitle(); ?>
-        <?php endif; ?>
+        <?php echo $entity->getTitle(); ?>
     </h1>
 
     <?php if($entity->getProgram()): ?>
