@@ -14,14 +14,12 @@ class Method extends SuperMethod
 {
     public static function execute(): Response
     {
-        $keyRune = self::getParameter('keyRune');
+        $keyRune = self::getParameter('key_rune');
 
-        $collection = MapsManager::loadFiles($keyRune, $access);
-
-        $filTemplate = __DIR__ . ($access ? '/TemplateTechnomage' : '/TemplateUser') . '.tpl';
+        $collection = MapsManager::loadFiles($keyRune);
 
         $response = new Response();
-        $response->set('render', static::render($filTemplate, [
+        $response->set('render', static::render(__DIR__ . '/Template.tpl', [
             'collection' => $collection
         ]));
 

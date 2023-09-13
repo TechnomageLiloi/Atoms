@@ -41,7 +41,7 @@
         </table>
 
         <script>
-
+            Atoms.Maps.show();
         </script>
     </body>
 </html>

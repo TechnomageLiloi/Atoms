@@ -22,10 +22,10 @@
     <?php endif; ?>
 
     <div id="game-maps-collection">
-        <script>Rune.Maps.getCollection("<?php echo $entity->getKey(); ?>", $('#game-maps-collection'));</script>
+        <script>Atoms.Maps.getCollection("<?php echo $entity->getKey(); ?>", $('#game-maps-collection'));</script>
     </div>
 
     <div id="game-repositories-collection">
-        <script>Rune.Repositories.getCollection("<?php echo $entity->getKey(); ?>", $('#game-repositories-collection'));</script>
+        <script>Atoms.Repositories.getCollection("<?php echo $entity->getKey(); ?>", $('#game-repositories-collection'));</script>
     </div>
 </div>

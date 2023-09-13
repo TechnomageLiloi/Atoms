@@ -14,7 +14,7 @@ Atoms.Maps = {
     getCollection: function (keyRune, wrap)
     {
         API.request('Atoms.Maps.Collection', {
-            keyRune: keyRune
+            key_rune: keyRune
         }, function (data) {
             wrap.html(data.render);
         }, function () {

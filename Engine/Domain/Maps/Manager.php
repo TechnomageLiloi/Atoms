@@ -115,15 +115,11 @@ class Manager extends DomainManager
         return Entity::create($row);
     }
 
-    public static function loadFiles(string $keyMap, bool $access): Collection
+    public static function loadFiles(string $keyMap): Collection
     {
         $name = self::getTableName();
 
         $sqlStatus = '';
-        if(!$access)
-        {
-            $sqlStatus = sprintf('status=%s and', Statuses::PUBLISHED);
-        }
 
         $sql = sprintf(
             'select * from %s where %s (key_map like "%s:%%") && (key_map not like "%s:%%:%%") order by title asc;',
