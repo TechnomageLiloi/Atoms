@@ -1,0 +1,13 @@
+#repositories-collection table {
+  width: 100%;
+}
+#repositories-collection h3 {
+  text-align: center;
+}
+#repositories-collection .atom {
+  border: gray 1px solid;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}

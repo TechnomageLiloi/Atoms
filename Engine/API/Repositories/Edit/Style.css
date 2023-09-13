@@ -1,0 +1,21 @@
+#game-repositories-edit {
+  padding: 10px;
+}
+#game-repositories-edit table {
+  width: 100%;
+}
+#game-repositories-edit input,
+#game-repositories-edit textarea,
+#game-repositories-edit select {
+  width: 100%;
+  background-color: whitesmoke;
+  border: silver 1px solid;
+}
+#game-repositories-edit input:focus,
+#game-repositories-edit textarea:focus,
+#game-repositories-edit select:focus {
+  background-color: #ffffdd;
+}
+#game-repositories-edit textarea {
+  height: 300px;
+}

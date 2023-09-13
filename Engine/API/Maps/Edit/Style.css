@@ -1,0 +1,21 @@
+#game-maps-edit {
+  padding: 10px;
+}
+#game-maps-edit table {
+  width: 100%;
+}
+#game-maps-edit input,
+#game-maps-edit textarea,
+#game-maps-edit select {
+  width: 100%;
+  background-color: whitesmoke;
+  border: silver 1px solid;
+}
+#game-maps-edit input:focus,
+#game-maps-edit textarea:focus,
+#game-maps-edit select:focus {
+  background-color: #ffffdd;
+}
+#game-maps-edit textarea {
+  height: 300px;
+}

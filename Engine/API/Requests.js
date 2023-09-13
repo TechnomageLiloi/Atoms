@@ -1,3 +1,3 @@
-var Rune = {
+var Atoms = {
     Security: {}
 };

@@ -1,0 +1,18 @@
+#game-maps-show {
+  padding: 10px;
+  font-size: x-large;
+}
+#game-maps-show .wrap-title {
+  text-align: center;
+}
+#game-maps-show table {
+  width: 100%;
+}
+#game-maps-show img {
+  float: right;
+}
+#game-maps-show .seeds {
+  text-align: center;
+  font-size: small;
+  color: gray;
+}
