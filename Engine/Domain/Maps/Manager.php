@@ -167,11 +167,11 @@ class Manager extends DomainManager
     {
         if($keyMap === self::ROOT)
         {
-            return '/' . self::ROOT;
+            return ROOT_URL . '/' . self::ROOT;
         }
 
         $lower = strtolower(str_replace(self::ROOT . ':', '', $keyMap));
-        return '/' . str_replace(':', '/', $lower);
+        return ROOT_URL . '/' . str_replace(':', '/', $lower);
     }
 
     public static function checkMap(string $keyMap): bool
