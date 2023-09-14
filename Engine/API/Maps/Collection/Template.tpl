@@ -10,7 +10,7 @@
         <?php foreach($collection as $entity): ?>
             <tr>
                 <td>
-                    <a href="<?php echo $entity->getUrl(); ?>">
+                    <a href="<?php echo ROOT_URL; ?><?php echo $entity->getUrl(); ?>">
                         <?php echo $entity->getTitle(); ?>
                     </a>
                 </td>
