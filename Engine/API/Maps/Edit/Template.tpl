@@ -1,4 +1,4 @@
-<link href="/Engine/API/Maps/Edit/Style.css" rel="stylesheet" />
+<link href="<?php echo ROOT_URL; ?>/Engine/API/Maps/Edit/Style.css" rel="stylesheet" />
 
 <div id="game-maps-edit">
     <a href="javascript:void(0)" onclick="Atoms.Maps.save('<?php echo $entity->getKey(); ?>');">Save</a>

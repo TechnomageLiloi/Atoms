@@ -1,4 +1,4 @@
-<link href="/Engine/API/Maps/Collection/Style.css" rel="stylesheet" />
+<link href="<?php echo ROOT_URL; ?>/Engine/API/Maps/Collection/Style.css" rel="stylesheet" />
 <?php if($collection->count()): ?>
     <hr/>
     <table>

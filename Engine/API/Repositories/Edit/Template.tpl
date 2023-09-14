@@ -1,4 +1,4 @@
-<link href="/Engine/API/Repositories/Edit/Style.css" rel="stylesheet" />
+<link href="<?php echo ROOT_URL; ?>/Engine/API/Repositories/Edit/Style.css" rel="stylesheet" />
 
 <div id="game-repositories-edit">
     <a href="javascript:void(0)" onclick="Atoms.Repositories.save('<?php echo $entity->getKeyAtom(); ?>');">Save</a>

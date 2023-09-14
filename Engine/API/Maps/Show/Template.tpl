@@ -1,4 +1,4 @@
-<link href="/Engine/API/Maps/Show/Style.css" rel="stylesheet" />
+<link href="<?php echo ROOT_URL; ?>/Engine/API/Maps/Show/Style.css" rel="stylesheet" />
 
 <div id="game-maps-show" class="stylo">
     <div class="seeds">

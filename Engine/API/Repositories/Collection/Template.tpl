@@ -1,5 +1,5 @@
 <?php if($collection->count()): ?>
-    <link href="/Engine/API/Repositories/Collection/Style.css" rel="stylesheet" />
+    <link href="<?php echo ROOT_URL; ?>/Engine/API/Repositories/Collection/Style.css" rel="stylesheet" />
     <hr/>
     <div id="repositories-collection">
         <h3>Atoms</h3>
