@@ -151,7 +151,9 @@ class Manager extends DomainManager
 
     public static function URLToMap(string $URL): string
     {
-        $lower = strtolower(trim($URL, '/'));
+        $withoutRoot = str_replace(ROOT_URL, '', $URL);
+
+        $lower = strtolower(trim($withoutRoot, '/'));
 
         if(in_array($lower, ['', self::ROOT]))
         {
