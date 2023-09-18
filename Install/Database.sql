@@ -3,6 +3,7 @@ CREATE TABLE `atoms_maps` (
     `title` varchar(250) COLLATE utf8mb4_unicode_ci NOT NULL,
     `program` mediumtext COLLATE utf8mb4_unicode_ci NOT NULL,
     `status` tinyint(3) unsigned NOT NULL DEFAULT '1',
+    `type` tinyint(3) unsigned NOT NULL DEFAULT '1',
     PRIMARY KEY (`key_map`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 

@@ -12,6 +12,9 @@ use Liloi\Tools\Entity as AbstractEntity;
  * @method string getStatus()
  * @method void setStatus(string $value)
  *
+ * @method string getType()
+ * @method void setType(string $value)
+ *
  * @method string getProgram()
  * @method void setProgram(string $value)
  */
@@ -30,6 +33,11 @@ class Entity extends AbstractEntity
     public function getStatusCaption(): string
     {
         return Statuses::$list[$this->getStatus()];
+    }
+
+    public function getTypeCaption(): string
+    {
+        return Types::$list[$this->getType()];
     }
 
     public function save(): void
