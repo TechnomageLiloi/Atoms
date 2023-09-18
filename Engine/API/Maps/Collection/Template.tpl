@@ -4,6 +4,7 @@
     <table>
         <tr>
             <th>Title</th>
+            <th>Type</th>
             <th>Status</th>
             <th>Actions</th>
         </tr>
@@ -14,6 +15,7 @@
                         <?php echo $entity->getTitle(); ?>
                     </a>
                 </td>
+                <td><?php echo $entity->getTypeCaption(); ?></td>
                 <td><?php echo $entity->getStatusCaption(); ?></td>
                 <td>
                     <a href="javascript:void(0)" class="butn" onclick="Atoms.Maps.remove('<?php echo $entity->getKey(); ?>');">Remove</a>

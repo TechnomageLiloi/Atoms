@@ -15,6 +15,14 @@
             </select>
         </td></tr>
 
+        <tr><td>Type</td><td>
+            <select name="type">
+                <?php foreach($types as $key => $value): ?>
+                <option value="<?php echo $key; ?>" <?php if($entity->getType() == $key): ?>selected="selected"<?php endif; ?>><?php echo $value; ?></option>
+                <?php endforeach; ?>
+            </select>
+        </td></tr>
+
         <tr><td>Program</td><td><textarea name="program"><?php echo $entity->getProgram(); ?></textarea></td></tr>
     </table>
     <hr/>

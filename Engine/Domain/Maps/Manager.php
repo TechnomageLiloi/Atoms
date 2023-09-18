@@ -78,6 +78,7 @@ class Manager extends DomainManager
             'key_map' => $keyMap,
             'title' => $keyMap,
             'status' => Statuses::TODO,
+            'type' => Types::FOLDER,
             'program' => ''
         ]);
     }
@@ -102,6 +103,7 @@ class Manager extends DomainManager
                 'key_map' => $keyMap,
                 'title' => $keyMap,
                 'status' => Statuses::TODO,
+                'type' => Types::FOLDER,
                 'program' => ''
             ];
 
