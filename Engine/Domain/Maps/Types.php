@@ -6,8 +6,10 @@ class Types
 {
     public const FOLDER = 1;
     public const ATOM = 2;
+    public const DEGREE = 3;
 
     static public array $list = [
+        self::DEGREE => 'Degree',
         self::FOLDER => 'Folder',
         self::ATOM => 'Atom'
     ];
